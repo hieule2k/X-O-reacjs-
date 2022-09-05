@@ -1,0 +1,31 @@
+.game-board {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap:25px;
+}
+
+.cells {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 100px;
+
+    box-shadow: rgba(0, 25, 50, 0.2) 0px 8px 24px;
+}
+
+.button {
+    margin: 25px;
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    display: inline-block;
+    color: white;
+    background-color: #6a5af9;
+    font-size: 16px;
+
+}
+
